@@ -1,11 +1,11 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path="C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="tempat file")
 driver.get('https://web.whatsapp.com/')
 
 name = input('Nama: ')
 msg = input('Pesan: ')
-count = int(input('Jumlah: '))
+count = int(input('Jumlah pesan: '))
 
 input("Enter")
 
